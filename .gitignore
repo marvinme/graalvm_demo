@@ -5,6 +5,7 @@ listdir.*
 listdir
 extlistdir.*
 extlistdir
+micronaut-graal-app
 
 # *.jar
 *.war
