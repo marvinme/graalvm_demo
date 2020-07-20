@@ -1,7 +1,9 @@
 # file
 *.class
 *.log
+listdir
 listdir.*
+ExtListDir
 ExtListDir.*
 
 # *.jar
