@@ -1,6 +1,9 @@
 # file
 *.class
 *.log
+listdir
+listdir.debug
+
 # *.jar
 *.war
 *.nar
