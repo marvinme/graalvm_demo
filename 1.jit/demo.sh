@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+javac CountUppercase.java
 echo -e "\033[36m"==================== Hotspot ===================="\033[0m"
 time java -XX:-UseJVMCICompiler CountUppercase Welcome to Oracle Developer World!
 echo -e "\033[33m"==================== Graal CE ===================="\033[0m"
