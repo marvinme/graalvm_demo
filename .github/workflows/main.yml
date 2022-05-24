@@ -18,8 +18,8 @@ jobs:
           java --version
           gu --version
           native-image --version
-          pwd
-          cd /home/runner/work/graalvm_demo/graalvm_demo/1.jit/;demo.sh
-          cd /home/runner/work/graalvm_demo/graalvm_demo/2.native/
-          build.sh
-          demo.sh
+          cp /home/runner/work/graalvm_demo/graalvm_demo/1.jit/CountUppercase.java .
+          /home/runner/work/graalvm_demo/graalvm_demo/1.jit/demo.sh
+          cp /home/runner/work/graalvm_demo/graalvm_demo/2.native/ListDir.java .
+          /home/runner/work/graalvm_demo/graalvm_demo/2.native/build.sh
+          /home/runner/work/graalvm_demo/graalvm_demo/2.native/demo.sh
