@@ -18,7 +18,9 @@ jobs:
           java --version
           gu --version
           native-image --version
+          pwd
           cd /home/runner/work/graalvm_demo/graalvm_demo/1.jit/
+          pwd
           demo.sh
           cd /home/runner/work/graalvm_demo/graalvm_demo/2.native/
           build.sh
