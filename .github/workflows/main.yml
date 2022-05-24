@@ -18,4 +18,6 @@ jobs:
           java --version
           gu --version
           native-image --version
-          pwd
+          /home/runner/work/graalvm_demo/graalvm_demo/1.jit/demo.sh
+          /home/runner/work/graalvm_demo/graalvm_demo/2.native/build.sh
+          /home/runner/work/graalvm_demo/graalvm_demo/2.native/demo.sh
