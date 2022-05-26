@@ -10,7 +10,7 @@ jobs:
           version: '22.1.0.1'
           gds-token: ${{ secrets.GDS_TOKEN }}
           java-version: '11'
-          components: 'native-image, ruby, python, js, R' 
+          components: 'native-image,ruby,python,js,R' 
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Example step
         run: |
