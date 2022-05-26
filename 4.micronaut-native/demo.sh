@@ -2,7 +2,7 @@
 cd ./micronaut-creating-first-graal-app/complete
 ./gradlew run
 
-read
+#read
 
 ./complete-0.1-all
 cd ../..
