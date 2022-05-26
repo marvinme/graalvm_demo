@@ -1,5 +1,5 @@
 name: GraalVM Enterprise Edition build
-on: [release]
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
