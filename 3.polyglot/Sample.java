@@ -11,7 +11,7 @@ public class Sample {
             context.eval("ruby", "puts '안녕, 루비'"); 
             context.eval("python", "print('안녕, 파이썬')"); 
             context.eval("js", "console.log('안녕, JS')"); 
-            context.eval("R", "cat('Hello, R')"); 
+            context.eval("R", "cat('안녕, R')"); 
 
         } catch (PolyglotException e) { 
             e.printStackTrace(); 
