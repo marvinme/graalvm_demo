@@ -2,7 +2,7 @@
 set -ex
 
 javac ListDir.java
-native-image -g -O0 ListDir
+native-image -g -Ob ListDir
 
 #javac ExtListDir.java
 #native-image --language:js ExtListDir
